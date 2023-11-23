@@ -51,9 +51,7 @@ features = ['Number_of_vehicles_involved','Number_of_casualties','Hour_of_Day','
 
 # User Input & Model Prediction
 # Give a title to web app using html syntax
-st.markdown("
-Accident Severity Prediction App 🚧
-", unsafe_allow_html=True)
+st.markdown("Accident Severity Prediction App 🚧", unsafe_allow_html=True)
 
 # define a main() function to take inputs from user in form based approach
 def main():
